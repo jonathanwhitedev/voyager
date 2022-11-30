@@ -1,108 +1,171 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Voyager
 
-Welcome USER_NAME,
+View my live project here! [voyager]
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Voyager is a new website club and newsletter designed to celebrate our unique planet and the thousands of different cultures and traditions each country or territary around the world possesses. This weekly newsletter provides the user with fundamental and educational information on what each country has to offer from inspiration, adventure, travel tips, folklore tales and interviews, religious festivities, amazing food and drinks recipes, and local events so it remains inclusive for people to be involved without having to travel to featured country. The aim is to provide 1 month of 4 different and vibrant newsletters by sign up which are emailed to the user to get a varied and informative grasp on each location. These are always fun filled and educational. A new month provides and entirely different and unique country to explore in fabulous detail. Our first month features Iceland.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## User Stories
 
-## Gitpod Reminders
+As part of the UX specification and planning phase it was noted that there are currently no available newsletter websites that offer services to consumers looking for varied inspirational and educational tips of countries around the world in great detail. There was an opening to provide a website that provided a sign up for people. A multitude of people surveyed agreed that there was no website that offered such a vast array of information with a free newsletter sent weekly via email and this would be something they felt would be a valuable USP. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Over three quarters of those surveyed also came to agreement there was no one place online that provided inspiration for holidays and trips with such great detail on places to visit, sites to see, unique experiencs to enjoy such as festivities, best times of the year to visit with links to external resources such as travel advice provided by goverment bodies etc.
 
-`python3 -m http.server`
+Another shortfall noticed was that for those who would like to experience a new vibrant culture but were unable to physically travel there, would benefit greatly from recipes and drinks menus and local events happening around the UK that celebrated the culture being displayed for that month. For example Diwali celebrations happening in London, restaurants that serve the most authentic food from that nation with reviews, educational facts and stories of that country that can be read by children and adults alike. Almost all that were surveyed in the UX consulation stage agreed there was no one website that provided all this useful information and more, so readily availabe as Voyager.
 
-A blue button should appear to click: _Make Public_,
+Each page on the Voyager website (Home, Spotlight, About, Sign-up and Welcoome) keep a clear and modern layout throughout that is accessible for all, gives the user an easy to follow grasp of what the website offers.
 
-Another blue button should appear to click: _Open Browser_.
+## Home
+Home provides a simple and clean layout with key information on what the website offers "Inspiration. Education. Adventure. From around the world, to your inbox. Weekly". This is followed with a clickable button of "Sign up today" which sends the user direct to sign-up page. A dreamlike hero image is also displayed to cover entire background, this provides user a sense of the website and evokes memories of holidays, travelling and good times, all which provide a positive user experinece. A large "Voyager" font in modern text in the centre of the page keeps the attracts the user to the modern lines. A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
+  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Spotlight
 
-A blue button should appear to click: _Make Public_,
+Spotlight provides a free no obligation sign up view of what is on offer in this weeks free newsletter, this is created using divs and spans and images with links to external websites including, food recipes "what were eating", places of interest "Where were going", and events in Iceland and the UK "Whats happening". This page aims to give the user the idea of what to expect and much more upon signup.
+ Again, A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
 
-Another blue button should appear to click: _Open Browser_.
+## About
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The about section aims to provide key information to the user in a playful manner to introduce the company Voyager and provide infomration on what to expect upon signing up to their free newsletter.
+ Again, A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
 
-To log into the Heroku toolbelt CLI:
+## Sign-up
+Sign up page provides the form and reiterates what the user is signing up for with a simple easily readable paragraph. a simple form consisting of "first name" "last name" and "email address" and clickable submit button. All entries of the form must filled out in order to signup. A prompt will follow if any information is missed or not filled out inlcuding a @ symbol. Upon sign up, a new linked page loads up on external webpage to confirm free subscription and a thank you. This is called "Welcome aboard Voyager"
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Welcome 
+This as above opens a new link website that confirms to the user that registartion is complete and greats them with the worlds "Welcome Aboard Voyager" "We cannot wait to share our home to your home"
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
-## Release History
+## Features 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Existing Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Navigation Bar__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __The landing page image__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- __Club Ethos Section__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
+  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- __Meetup Times section__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section will be updated as these times change to keep the user up to date. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- __The Footer__ 
 
-------
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-## FAQ about the uptime script
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-**Why have you added this script?**
+- __Gallery__
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+  - The gallery will provide the user with supporting images to see what the meet ups look like. 
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-**How will this affect me?**
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- __The Sign Up Page__
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-**So….?**
+For some/all of your features, you may choose to reference the specific project files that implement them.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-**Can I opt out?**
+### Features Left to Implement
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- Another feature idea
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Testing 
 
-**Anything more?**
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
----
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-Happy coding!
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+### Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+
+
+## Credits 
+
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
+
+### Content 
+
+- The text for the Home page was taken from Wikipedia Article A
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
+
+
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+
+## Other General Project Advice
+
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
+  - Make sure to keep the messages in the imperative mood 
+
+- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+
+- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
