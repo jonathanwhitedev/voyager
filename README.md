@@ -98,7 +98,7 @@ Home page or landing page gives clear information in a playful and modern approa
 
 ## Wireframes
 
-Include images of website as a reponsive mock-up on various screensizes (use resource provided by code ins)
+Include images of website as a reponsive mock-up on various screensizes (use resource https://ui.dev/amiresponsive)
 
 ## Testing 
 
