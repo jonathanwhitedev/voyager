@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@600&family=Libre+Caslon+Text&family=Oranienbaum&display=swap');
+
+body {
+    margin: 0;
+    padding 0;
+    background-image: url("/assets/images/AdobeStock_532232906.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+
+
+nav {
+  
+    font-family: Cormorant;
+    font-size: 25px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 320px;
+    color: white;
+    font-weight:200 ;
+    font-family: Libre Caslon Text;
+    position: fixed;
+    position: inherit;
+    transition: 0.5s
+    font-style: normal;
+}
+
+.content h1:hover {
+    -webkit-text-stroke: 2px whitesmoke;
+    color: transparent;
+}
+
+.content h2 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-family: Cormorant;
+    position: fixed;
+    position: inherit;
+}
+
+.content p {
+    text-decoration: none;
+    display: inline-block;
+    color:maroon;
+    font-size: 25px;
+    font-family: Cormorant;
+}
+
+.content button {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-family: Cormorant;
+    font-size: 25px;
+    border: 2px solid #fff;
+    padding: 7px 35px;
+    border-radius: 50px;
+    margin-top: 50px;
+
+}
+
+
+
+   
+
+
+
+
+
