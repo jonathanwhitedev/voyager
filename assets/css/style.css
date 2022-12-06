@@ -1,86 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@600&family=Libre+Caslon+Text&family=Oranienbaum&display=swap');
 
-body {
+* {
     margin: 0;
-    padding 0;
-    background-image: url("/assets/images/AdobeStock_532232906.jpeg");
-    background-size: cover;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oraniembaum, sans-serif;
+}
+
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(rgb(5, 22, 29), green, blue, alpha);
+    color: #fff;
+    z-index: 2;
+}
+
+.showcase header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(menu.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: 30px;
     background-position: center;
+    cursor: pointer;
+}
+
+.toggle.active {
+    background: url(menu.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
 
 }
 
-
-
-nav {
-  
-    font-family: Cormorant;
-    font-size: 25px;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(rgba(227, 114, 8, 0.689), green, blue, alpha);
+    mix-blend-mode: overlay;
 }
 
-nav ul li {
+.text {
+    position: relative;
+    z-index: 10;
+}
+
+.text h1 {
+    color: navy;
+    font-weight: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    font-family:;
+    font-size: 500px;
+    
+}
+
+.text h2 {
+    font-weight: 5em;
+    font-weight: 800;
+    line-height: 1em;
+
+}
+
+.text p {
+    font-size: 1.1em;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
+}
+
+.text a {
+    display: inline-block;
+    font-size: 1em;
+    background: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #111;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+text a.hover {
+    letter-spacing: 6px;
+}
+
+.social {
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    font-size: 50px;
+
+}
+
+.social li {
     list-style: none;
+}
+
+.social li a {
     display: inline-block;
-    margin-left: 20px;
-}
-
-.content {
-    text-align: center;
-}
-
-.content h1 {
-    font-size: 320px;
-    color: white;
-    font-weight:200 ;
-    font-family: Libre Caslon Text;
-    position: fixed;
-    position: inherit;
-    transition: 0.5s
-    font-style: normal;
-}
-
-.content h1:hover {
-    -webkit-text-stroke: 2px whitesmoke;
-    color: transparent;
-}
-
-.content h2 {
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    font-size: 25px;
-    font-family: Cormorant;
-    position: fixed;
-    position: inherit;
-}
-
-.content p {
-    text-decoration: none;
-    display: inline-block;
-    color:maroon;
-    font-size: 25px;
-    font-family: Cormorant;
-}
-
-.content button {
-    text-decoration: none;
-    display: inline-block;
-    color: black;
-    font-family: Cormorant;
-    font-size: 25px;
-    border: 2px solid #fff;
-    padding: 7px 35px;
-    border-radius: 50px;
-    margin-top: 50px;
+    filter: invert(1);
+    margin-right: 20px;
+    transform: scale(0.5);
+    transition: 0.5s;
 
 }
 
+social li a.hover {
+    transform: scale(0.5) translate(-15px);
+}
 
+@media(max-width: 798px) {
+    .showcase,
+    .showcase header {
+        padding: 40px;
+    }
+}
 
-   
+.text h1 {
+    font-size: 3em;
+}
 
+.text h2 {
+    font-size: 2em;
+}
 
-
-
-
+.menu {
+    
+}
