@@ -28,6 +28,10 @@ header .logo
   font-family: Liberata;
 }
 
+header > a {
+  text-decoration: none;
+}
+
 .showcase
 {
   position: absolute;
@@ -38,13 +42,9 @@ header .logo
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
+  background: rgb(142, 174, 196);
   transition: 0.5s;
   z-index: 2;
-}
-.showcase.active
-{
-  right: 300px;
 }
 
 .showcase video
@@ -75,7 +75,7 @@ header .logo
 
 .text h1 { 
     font-family: Literata;
-    font-size: 7.8em;
+    font-size: 7em;
     font-weight: 700;
     color: rgb(0, 66, 110);
     line-height: 1.5em;
@@ -86,17 +86,27 @@ header .logo
   font-size: 2.5em;
   font-weight: 700;
   color: #fff;
-  line-height: 0.8em;
+  line-height: 1em;
   text-transform: uppercase;
 }
+
+.text h3
+{
+  font-size: 2em;
+  font-weight: 700;
+  color: rgb(0, 66, 110);
+  line-height: 1em;
+
+}
+
 .text p
 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #fff;
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
-  line-height: 0.8em;
+  line-height: 1.2em;
 }
 .text a
 {
@@ -108,7 +118,7 @@ header .logo
   text-decoration: none;
   font-weight: 500;
   margin-top: 10px;
-  color: #111;
+  color: rgb(0, 66, 110);
   letter-spacing: 2px;
   transition: 0.2s;
   line-height: 1em;
@@ -152,7 +162,7 @@ header .logo
   position: relative;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 22em;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -161,7 +171,7 @@ header .logo
   z-index: 20000;
   text-transform: uppercase;
   font-family: Roboto;
-  padding: 0.4em;
+  
 }
 .menu ul li
 {
@@ -176,6 +186,8 @@ header .logo
   text-decoration: none;
   font-size: 18px;
   color: rgb(0, 66, 110);
+  padding: 0px 8px;
+
 }
 
 .menu a:hover {
@@ -184,7 +196,50 @@ header .logo
 .active {
     border-bottom: 1px solid #114;
 }
+.signup-form {
 
+  color: #fff;
+  background-color:rgb(0, 66, 110);
+  max-width: 400px;
+  left: 10%;
+  padding: 30px;
+  
+}
+
+.signup-form > h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+  
+}
+
+.text-input {
+  background:transparent;
+  color:#fafafa;
+  width:100%;
+  height:25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  
+}
+
+.text-input:hover {
+  border-color:rgb(0, 66, 110);
+}
+
+.join-button {
+
+  text-align: center;
+  font-size: 100%;
+  background-color:#fafafa;
+  color: rgb(0, 66, 110);
+  display: block;
+}
+
+.join-button:hover {
+  background-color:rgb(142, 174, 196);
+  color:#fafafa;
+}
 
 @media (max-width: 798px)
 {

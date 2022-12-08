@@ -39,15 +39,35 @@
              </div>
         </header>
 
-        <h1>Join our newsletter</h1>
-        <p>Don't travel our sphere alone! 
-            Trust Voyager to deliver the very best in culture to your inbox, weekly.
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Join Our Newsletter!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" class="text-input" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+            
+            
+            <input class="join-button" type="submit" value="Let's See The World!">
+        </form>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+        <h2>Don't travel our sphere alone! </h2>
+            <p> Trust Voyager to deliver the very best in culture to your inbox, weekly.
             Our newsletters are packed to the brim with everything you need to experience the best of our planet. 
             With new mesmerising countries visited every single month, were positive to amaze you with interesting and educational stories, hot travel tips, beautiful recipes to try at home, events in your local community and so much more!
             
             And even better, it's FREE to join!
             
             So what are you waiting for?  </p>
+        </div>
+
+            
 
             <ul class="social">
                 <li>
@@ -66,7 +86,7 @@
     
         
             <script src="https://kit.fontawesome.com/a002684da6.js" crossorigin="anonymous"></script>
-                
+    </section>        
         </body>
         
         </html>
