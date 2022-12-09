@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Literata:opsz,wght@7..72,600&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;500&family=Noto+Sans+HK:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
 *
 {
@@ -25,7 +25,9 @@ header .logo
   text-transform: uppercase;
   cursor: pointer;
   font-size: 50px;
-  font-family: Liberata;
+  font-family: Noto Sans Hong Kong;
+  -webkit-text-stroke: 0.4px white;
+
 }
 
 header > a {
@@ -86,10 +88,11 @@ header > a {
 }
 
 .text h1 { 
-    font-family: Literata;
-    font-size: 7em;
-    font-weight: 600;
+    font-family: Noto Sans Hong Kong;
+    font-size: 6em;
+    font-weight: 500;
     color: rgb(0, 66, 110);
+    -webkit-text-stroke: 0.4px white;
 }
 
 .text h2
@@ -120,19 +123,6 @@ header > a {
   font-weight: 400;
   max-width: 700px;
   line-height: 1.2em;
-
-}
-
-#textp
-{
-  font-family: Roboto;
-  font-size: 1.2em;
-  color: rgb(0, 66, 110);
-  margin: 20px 0;
-  font-weight: 400;
-  max-width: 700px;
-  line-height: 1.2em;
-
 }
 
 .text a
@@ -149,6 +139,7 @@ header > a {
   letter-spacing: 2px;
   transition: 0.2s;
   line-height: 1em;
+  
 }
 .text a:hover
 {
@@ -180,6 +171,7 @@ header > a {
   transform: scale(0.5);
   transition: 0.5s;
   color: rgb(0, 66, 110);
+  -webkit-text-stroke: 0.4px white;
 }
 .social li a:hover
 {
@@ -214,8 +206,9 @@ header > a {
 {
   text-decoration: none;
   font-size: 18px;
-  color: rgb(0, 66, 110);
+  color: white;
   padding: 0px 8px;
+  -webkit-text-stroke: 0.6px black;
 
 }
 
@@ -263,7 +256,7 @@ header > a {
   display: inline-block;
   font-size: 1em;
   background: #fff;
-  padding: 10px;
+  padding: 8px;
   text-transform: uppercase;
   font-family: Roboto;
   text-decoration: none;
@@ -290,11 +283,11 @@ header > a {
   }
   .text h1
   {
-    font-size: 3.7em;
+    font-size: 4.5em;
   }
   .text h2
   {
-    font-size: 1.6em;
+    font-size: 2.5em;
   }
   .text h3 {
     font-size: 1.2em;
@@ -302,9 +295,10 @@ header > a {
   .text p {
     font-size: 0.8em;
   }
+
   #specifich {
-    padding-left: 1.65em;
-    font-size: 0.9em;
+    padding-left: 1.8em;
+    font-size: 1em;
   }
   #specificp {
     font-size: 0.82em;
