@@ -56,7 +56,7 @@ header > a {
   height: 100%;
   object-fit: cover;
   background-color:rgba(0, 66, 110, 0.8);
-}
+} 
 
 .showcase img {
   position: absolute;
@@ -100,7 +100,6 @@ header > a {
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
-  text-decoration: underline;
 }
 
 .text h3
@@ -123,6 +122,19 @@ header > a {
   line-height: 1.2em;
 
 }
+
+#textp
+{
+  font-family: Roboto;
+  font-size: 1.2em;
+  color: rgb(0, 66, 110);
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+  line-height: 1.2em;
+
+}
+
 .text a
 {
   display: inline-block;
