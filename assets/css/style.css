@@ -13,7 +13,7 @@ header
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 100px;
+  padding: 10px 100px;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@ header .logo
   color: rgb(0, 66, 110);
   text-transform: uppercase;
   cursor: pointer;
-  font-size: 50px;
+  font-size: 55px;
   font-family: Noto Sans Hong Kong, sans-serif;
   -webkit-text-stroke: 0.4px white;
 
@@ -32,6 +32,38 @@ header .logo
 
 header > a {
   text-decoration: none;
+}
+
+.menu
+{
+  display: flex;
+  color: rgb(0, 66, 110);
+  z-index: 20000;
+  text-transform: uppercase;
+  font-family: Roboto;
+  
+}
+.menu ul li
+{
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+
+}
+
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  padding: 0px, 10px;
+  -webkit-text-stroke: 0.6px black;
+  word-spacing: 10px;
+
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #114;
 }
 
 .showcase
@@ -59,17 +91,6 @@ header > a {
   object-fit: cover;
   background-color:rgba(0, 66, 110, 0.8);
 } 
-
-.showcase img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background: rgba(229, 172, 3);
-  mix-blend-mode: darken;
-}
 
 .overlay
 {
@@ -178,44 +199,6 @@ header > a {
   transform: scale(0.5) translateY(-15px);
 }
 
-.menu
-{
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 22em;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: rgb(0, 66, 110);
-  z-index: 20000;
-  text-transform: uppercase;
-  font-family: Roboto;
-  
-}
-.menu ul li
-{
-  list-style: none;
-  display: inline-block;
-  margin-left: auto;
-
-}
-
-.menu ul li a
-{
-  text-decoration: none;
-  font-size: 16px;
-  color: white;
-  padding: 0px 8px;
-  -webkit-text-stroke: 0.6px black;
-
-}
-
-.menu a:hover {
-    border-bottom: 1px solid #114;
-}
-
 .signup-form {
 
   color: #fff;
@@ -283,6 +266,11 @@ header > a {
   {
     padding: 40px;
   }
+  .menu ul li a
+  {
+    font-size: 14px;
+
+  }
   .text h1
   {
     font-size: 4.5em;
@@ -308,5 +296,6 @@ header > a {
 }
   .signup-form {
     justify-content: space-between;
+    flex-direction: column;
   }
 }
