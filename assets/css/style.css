@@ -13,7 +13,7 @@ header
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px 100px;
+  padding: 20px 100px;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -199,11 +199,21 @@ header > a {
   transform: scale(0.5) translateY(-15px);
 }
 
+.container
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25vh auto 0;
+
+}
+
+
 .signup-form {
 
   color: #fff;
   background-color:rgba(0, 66, 110, 0.8);
-  max-width: 300px;
+  max-width: 400px;
   left: 10%;
   padding: 20px;
   z-index: 25000;
@@ -287,15 +297,23 @@ header > a {
   }
 
   #specifich {
-    padding-left: 1.8em;
-    font-size: 1em;
+    padding: 1.8em;
+    font-size: 2em;
   }
   #specificp {
-    font-size: 0.82em;
+    font-size: 1em;
     padding-left: 2em;
 }
-  .signup-form {
-    justify-content: space-between;
+  .container {
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }
+  
+  .flexbox-1 {
+
   }
 }
