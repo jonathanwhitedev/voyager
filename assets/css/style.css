@@ -126,6 +126,7 @@ header > a {
   font-weight: 400;
   line-height: 1em;
   color: #fff;
+  text-decoration: underline;
 
 }
 
@@ -328,7 +329,12 @@ header > a {
     position: relative;
     bottom: 75px;
     -webkit-text-stroke: 0.2px white;
+    text-decoration: none;
   }
+
+#specifich {
+  text-decoration: underline;
+}
 .button {
   position: relative;
   bottom: 75px;
@@ -471,7 +477,7 @@ font-size: 1.4em
     font-size: 2em;
   }
   .text h3 {
-    font-size: 0.8em;
+    font-size: 1.2em;
   }
   .text p {
     font-size: 0.8em;
@@ -590,7 +596,7 @@ font-size: 1em
     font-size: 1.2em;
   }
   .text h3 {
-    font-size: 0.6em;
+    font-size: 0.9em;
   }
   .text p {
     font-size: 0.4em;
