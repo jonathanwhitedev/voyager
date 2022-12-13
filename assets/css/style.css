@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;500&family=Noto+Sans+HK:wght@400;500&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Roboto:wght@400;700&display=swap');
 
 *
 {
@@ -18,14 +18,14 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(3, 10, 15, 0.2);
 }
 header .logo
 {
   color: rgb(0, 66, 110);
-  text-transform: uppercase;
   cursor: pointer;
   font-size: 55px;
-  font-family: Noto Sans Hong Kong, sans-serif;
+  font-family: Lora, sans-serif;
   -webkit-text-stroke: 0.4px white;
 
 }
@@ -109,8 +109,8 @@ header > a {
 }
 
 .text h1 { 
-    font-family: Noto Sans Hong Kong, sans-serif;
-    font-size: 6em;
+    font-family: Lora, sans-serif;
+    font-size: 15em;
     font-weight: 500;
     color: rgb(0, 66, 110);
     -webkit-text-stroke: 0.4px white;
@@ -128,7 +128,7 @@ header > a {
 
 .text h3
 {
-  font-family: Roboto, sans-serif;
+  font-family: Lora, sans-serif;
   font-size: 2em;
   font-weight: 400;
   line-height: 1em;
@@ -137,7 +137,7 @@ header > a {
 
 .text p
 {
-  font-family: Roboto, sans-serif;
+  font-family: Lora, sans-serif;
   font-size: 1.2em;
   color: #fff;
   margin: 20px 0;
