@@ -20,7 +20,7 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(3, 10, 15, 0.2);
+  background-color: rgba(3, 10, 15, 0.4);
   
 }
 header .logo
@@ -91,7 +91,7 @@ header > a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background-color:rgba(0, 66, 110, 0.8);
+  background-color: rgba(3, 10, 15, 0.2);
 } 
 
 .text
@@ -103,7 +103,7 @@ header > a {
 
 .text h1 { 
     font-family: Lora, sans-serif;
-    font-size: 10em;
+    font-size: 6em;
     font-weight: 400;
     color: rgb(0, 66, 110);
     -webkit-text-stroke: 0.4px white;
@@ -244,7 +244,7 @@ header > a {
   background-color:rgba(0, 66, 110, 0.8);
   min-width: 350px;
   left: 10%;
-  padding: 20px;
+  padding: 10px;
   z-index: 25000;
   
 }
@@ -300,7 +300,7 @@ header > a {
 
 #voyagertext {
   font-family: Lora, sans-serif;
-  font-size: 24em;
+  font-size: 20em;
   font-weight: 400;
   position: relative;
   bottom: 75px;
@@ -360,7 +360,7 @@ header > a {
     font-size: 1.6em;
   }
   .text p {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .social {
     font-size: 40px;
@@ -380,8 +380,18 @@ font-size: 1.6em
 #specifich {
   font-size: 1.6em;
 }
+#voyagertext {
+font-size: 14em;
+letter-spacing: -10px;
+-webkit-text-stroke: 1px white;
 }
-
+#landingtexth2 {
+font-size: 2.5em;
+}
+#landingtexth3 {
+font-size: 1.8em;
+}
+}
 @media (max-width: 800px)
 {
   .showcase,
@@ -406,7 +416,7 @@ font-size: 1.6em
     font-size: 1.2em;
   }
   .text p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .social {
@@ -428,6 +438,17 @@ font-size: 1.4em
 #specifich {
   font-size: 1.4em;
 }
+#voyagertext {
+  font-size: 9em;
+  letter-spacing: -5px;
+  -webkit-text-stroke: 0.8px white;
+  }
+  #landingtexth2 {
+  font-size: 2em;
+  }
+  #landingtexth3 {
+  font-size: 1.5em;
+  }
 }
 
 
@@ -441,7 +462,7 @@ font-size: 1.4em
   }
   .menu ul li a
   {
-    font-size: 10px;
+    font-size: 15px;
 
   }
   .text h1
@@ -456,11 +477,11 @@ font-size: 1.4em
     font-size: 0.8em;
   }
   .text p {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 
   .social {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .container {
@@ -478,9 +499,20 @@ font-size: 1em
 #specifich {
   font-size: 1em;
 }
+#voyagertext {
+  font-size: 6em;
+  letter-spacing: -5px;
+  -webkit-text-stroke: 0.8px white;
+  }
+  #landingtexth2 {
+  font-size: 1.4em;
+  }
+  #landingtexth3 {
+  font-size: 1.2em;
+  }
 }
 
-@media (orientation:landscape) and (max-width: 1000px) {
+@media (orientation:landscape) and (max-width: 1000px) (max-height: 1000px) {
   .showcase,
   .showcase header
   {
@@ -497,24 +529,24 @@ font-size: 1em
   }
   .text h1
   {
-    font-size: 2.4em;
+    font-size: 3em;
   }
   .text h2
   {
-    font-size: 1em;
+    font-size: 2em;
   }
   .text h3 {
-    font-size: 0.8em;
+    font-size: 1.4em;
   }
   .text p {
-    font-size: 0.6em;
+    font-size: 1em;
   }
 
 .text a {
-  font-size: 0.6em;
+  font-size: 1em;
 }
   .social {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .container {
@@ -566,10 +598,10 @@ font-size: 1em
   }
 
 .text a {
-  font-size: 0.4em;
+  font-size: 0.3em;
 }
   .social {
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .container {
@@ -585,4 +617,16 @@ font-size: 0.8em
 #specifich {
   font-size: 0.8em;
 }
+#voyagertext {
+  position: absolute;
+  bottom: 80px;
+  }
+  #landingtexth2 {
+    position: absolute;
+    bottom: 80px;
+  }
+  #landingtexth3 {
+    position: absolute;
+    bottom: 80px;
+  }
 }
