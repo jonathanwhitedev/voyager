@@ -81,11 +81,12 @@ header > a {
   background: rgb(142, 174, 196);
   transition: 0.5s;
   z-index: 2;
+  
 }
 
 .showcase video
 {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -368,7 +369,7 @@ header > a {
 
   .container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
 
@@ -512,7 +513,8 @@ font-size: 1em
   }
 }
 
-@media (orientation:landscape) and (max-width: 1000px) (max-height: 1000px) {
+@media (orientation:landscape) and (max-width: 1000px) (max-height: 1000px) 
+{
   .showcase,
   .showcase header
   {
@@ -569,6 +571,7 @@ font-size: 1em
 #specifich {
   font-size: 1em;
 }
+
 }
 
 @media (orientation:landscape) and (max-width: 600px) and (max-height: 1000px) {
