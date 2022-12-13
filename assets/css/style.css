@@ -161,7 +161,7 @@ header > a {
   background-color:rgb(142, 174, 196);
   color:#fafafa;
 }
-.social
+.social1
 {
   position: absolute;
   z-index: 10;
@@ -173,12 +173,12 @@ header > a {
   color: rgb(0, 66, 110);
   
 }
-.social li
+.social1 li
 {
   list-style: none;
   color: rgb(0, 66, 110);
 }
-.social li a
+.social1 li a
 {
   display: inline-block;
   margin: 20px;
@@ -187,7 +187,38 @@ header > a {
   color: rgb(0, 66, 110);
   -webkit-text-stroke: 0.4px white;
 }
-.social li a:hover
+.social1 li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+
+.social2
+{
+  position: absolute;
+  z-index: 100;
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  
+}
+.social2 li
+{
+  list-style: none;
+  
+}
+.social2 li a
+{
+  display: inline-block;
+  margin: 20px;
+  transform: scale(0.5);
+  transition: 0.5s;
+  color: white;
+  
+}
+.social2 li a:hover
 {
   transform: scale(0.5) translateY(-15px);
 }
