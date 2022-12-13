@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 header
 {
@@ -50,7 +51,6 @@ header > a {
   list-style: none;
   display: inline-block;
   margin-left: 25px;
-
 }
 
 .menu ul li a
@@ -61,6 +61,7 @@ header > a {
   padding: 0px, 10px;
   -webkit-text-stroke: 0.6px black;
   word-spacing: 10px;
+  text-align: center;
 
 }
 
@@ -134,7 +135,8 @@ header > a {
   font-size: 2em;
   font-weight: 400;
   line-height: 1em;
-  color: #fff
+  color: #fff;
+  margin: 20px 0;
 }
 
 .text p
@@ -144,7 +146,6 @@ header > a {
   color: #fff;
   margin: 20px 0;
   font-weight: 400;
-  max-width: 700px;
   line-height: 1.2em;
 }
 
