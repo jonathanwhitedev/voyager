@@ -105,7 +105,6 @@ header > a {
 .text h1 { 
     font-family: Lora, sans-serif;
     font-size: 6em;
-    font-weight: 400;
     color: rgb(0, 66, 110);
     -webkit-text-stroke: 0.4px white;
 }
@@ -404,7 +403,7 @@ font-size: 1.8em;
   }
   .text h1
   {
-    font-size: 3em;
+    font-size: 4em;
   }
   .text h2
   {
@@ -465,11 +464,11 @@ font-size: 1.4em
   }
   .text h1
   {
-    font-size: 2em;
+    font-size: 3.4em;
   }
   .text h2
   {
-    font-size: 1em;
+    font-size: 2em;
   }
   .text h3 {
     font-size: 0.8em;
@@ -528,7 +527,7 @@ font-size: 1em
   }
   .text h1
   {
-    font-size: 3em;
+    font-size: 3.6em;
   }
   .text h2
   {
@@ -584,11 +583,11 @@ font-size: 1em
   }
   .text h1
   {
-    font-size: 2em;
+    font-size: 3.6em;
   }
   .text h2
   {
-    font-size: 0.8em;
+    font-size: 1.2em;
   }
   .text h3 {
     font-size: 0.6em;
