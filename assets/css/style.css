@@ -104,7 +104,7 @@ header > a {
 .text h1 { 
     font-family: Lora, sans-serif;
     font-size: 10em;
-    font-weight: 500;
+    font-weight: 400;
     color: rgb(0, 66, 110);
     -webkit-text-stroke: 0.4px white;
 }
@@ -126,7 +126,7 @@ header > a {
   font-weight: 400;
   line-height: 1em;
   color: #fff;
-  margin: 20px 0;
+
 }
 
 .text p
@@ -195,7 +195,7 @@ header > a {
 .container
 {
   display: flex;
-  margin: 4em;
+  margin: 2em;
   gap: 2em;
 
 }
@@ -265,6 +265,44 @@ header > a {
   background-color:rgb(142, 174, 196);
   color:#fafafa;
   letter-spacing: 6px;
+}
+
+#voyagertext {
+  font-family: Lora, sans-serif;
+  font-size: 24em;
+  font-weight: 400;
+  position: relative;
+  bottom: 75px;
+  color: transparent;
+  -webkit-text-stroke: 1.5px white;
+  letter-spacing: -30px;
+}
+
+#landingtexth2 {
+  font-family: Roboto, sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+  color: rgb(0, 66, 110);
+  line-height: 1em;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 75px;
+  -webkit-text-stroke: 0.2px white;
+}
+
+#landingtexth3 {
+    font-family: Lora, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1em;
+    color: rgb(0, 66, 110);
+    position: relative;
+    bottom: 75px;
+    -webkit-text-stroke: 0.2px white;
+  }
+.button {
+  position: relative;
+  bottom: 75px;
 }
 
 @media (max-width: 1250px)
@@ -453,9 +491,14 @@ font-size: 1em
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-   
 
 }
+.signup-form {
+  max-width: 100px;
+  max-height: 250px;
+  font-size: 0.4em;
+}
+
 .signup-form > h2 {
 font-size: 1em
 
@@ -503,8 +546,6 @@ font-size: 1em
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-   
-
 }
 .signup-form > h2 {
 font-size: 0.8em
