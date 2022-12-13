@@ -492,6 +492,8 @@ font-size: 1.4em
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: inherit;
+  }
    
 
 }
