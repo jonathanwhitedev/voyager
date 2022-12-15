@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Roboto:wght@400;700&display=swap');
 
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
-header
-{
+
+header {
   position: absolute;
   top: 0;
   left: 0;
@@ -21,41 +20,36 @@ header
   justify-content: space-between;
   align-items: center;
   background-color: rgba(3, 10, 15, 0.4);
-  
 }
-header .logo
-{
+
+header .logo {
   color: rgb(0, 66, 110);
   cursor: pointer;
   font-size: 40px;
   font-family: Lora, sans-serif;
   -webkit-text-stroke: 0.4px white;
   letter-spacing: -5px;
-
 }
 
 header > a {
   text-decoration: none;
 }
 
-.menu
-{
+.menu {
   display: flex;
   color: rgb(0, 66, 110);
   z-index: 20000;
   text-transform: uppercase;
   font-family: Roboto;
-  
-}
-.menu ul li
-{
+  }
+
+.menu ul li {
   list-style: none;
   display: inline-block;
   margin-left: 25px;
 }
 
-.menu ul li a
-{
+.menu ul li a {
   text-decoration: none;
   font-size: 22px;
   color: white;
@@ -63,15 +57,13 @@ header > a {
   -webkit-text-stroke: 0.6px black;
   word-spacing: 10px;
   text-align: center;
-
 }
 
 .menu a:hover {
     border-bottom: 1px solid #114;
 }
 
-.showcase
-{
+.showcase {
   right: 0;
   width: 100%;
   min-height: 100vh;
@@ -82,11 +74,9 @@ header > a {
   background: rgb(142, 174, 196);
   transition: 0.5s;
   z-index: 2;
-  
-}
+  }
 
-.showcase video
-{
+.showcase video {
   position: fixed;
   top: 0;
   left: 0;
@@ -94,15 +84,12 @@ header > a {
   height: 100%;
   object-fit: cover;
   filter: brightness(70%);
- 
-} 
+ } 
 
 
-.text
-{
+.text {
   position: relative;
   z-index: 10;
-
 }
 
 .text h1 { 
@@ -112,8 +99,7 @@ header > a {
     -webkit-text-stroke: 0.4px white;
 }
 
-.text h2
-{
+.text h2 {
   font-family: Roboto, sans-serif;
   font-size: 2.5em;
   font-weight: 400;
@@ -122,27 +108,23 @@ header > a {
   text-transform: uppercase;
 }
 
-.text h3
-{
+.text h3 {
   font-family: Lora, sans-serif;
   font-size: 2em;
   font-weight: 400;
   line-height: 1em;
   color: #fff;
   text-decoration: underline;
-
 }
 
-.text p
-{
+.text p {
   font-family: Lora, sans-serif;
   font-size: 1.2em;
   color: #fff;
   font-weight: 400;
 }
 
-.text a
-{
+.text a {
   display: inline-block;
   font-size: 1em;
   background: #fff;
@@ -155,16 +137,15 @@ header > a {
   letter-spacing: 2px;
   transition: 0.2s;
   line-height: 1em;
-  
 }
-.text a:hover
-{
+
+.text a:hover {
   letter-spacing: 6px;
   background-color:rgb(142, 174, 196);
   color:#fafafa;
 }
-.social1
-{
+
+.social1 {
   position: absolute;
   z-index: 10;
   bottom: 5px;
@@ -173,15 +154,14 @@ header > a {
   align-items: center;
   font-size: 50px;
   color: rgb(0, 66, 110);
-  
 }
-.social1 li
-{
+
+.social1 li {
   list-style: none;
   color: rgb(0, 66, 110);
 }
-.social1 li a
-{
+
+.social1 li a {
   display: inline-block;
   margin: 20px;
   transform: scale(0.5);
@@ -189,13 +169,11 @@ header > a {
   color: rgb(0, 66, 110);
   -webkit-text-stroke: 0.4px white;
 }
-.social1 li a:hover
-{
+.social1 li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
 
-.social2
-{
+.social2 {
   position: absolute;
   z-index: 100;
   bottom: 5px;
@@ -204,52 +182,44 @@ header > a {
   align-items: center;
   font-size: 50px;
   color: white;
-  
 }
-.social2 li
-{
+
+.social2 li {
   list-style: none;
-  
 }
-.social2 li a
-{
+
+.social2 li a {
   display: inline-block;
   margin: 20px;
   transform: scale(0.5);
   transition: 0.5s;
   color: white;
   bottom: auto;
-  
 }
-.social2 li a:hover
-{
+
+.social2 li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
 
-.container
-{
+.container {
   display: flex;
   margin: 2em;
   gap: 2em;
-
 }
 
 .flexbox-1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 
 .signup-form {
-
   color: #fff;
   background-color:rgba(0, 66, 110, 0.8);
   min-width: 350px;
   left: 10%;
   padding: 10px;
   z-index: 25000;
-  
 }
 
 .signup-form h2 {
@@ -257,8 +227,6 @@ header > a {
   margin-bottom: 20px;
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
-  
-  
 }
 
 .text-input {
@@ -271,7 +239,6 @@ header > a {
   border-radius: 2px;
   font-family: Roboto, sans-serif;
   font-size: 12px;
-  
 }
 
 .text-input:hover {
@@ -279,7 +246,6 @@ header > a {
 }
 
 .join-button {
-
   display: inline-block;
   font-size: 1em;
   background: #fff;
@@ -343,24 +309,21 @@ header > a {
   bottom: 75px;
 }
 
+/* media queries (larger screens) */
 @media (max-width: 1250px)
 {
   .showcase,
-  .showcase header
-  {
+  .showcase header {
     padding: 60px;
   }
-  .menu ul li a
-  {
+  .menu ul li a {
     font-size: 16px;
 
   }
-  .text h1
-  {
+  .text h1 {
     font-size: 4em;
   }
-  .text h2
-  {
+  .text h2 {
     font-size: 2em;
   }
   .text h3 {
@@ -377,50 +340,55 @@ header > a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
 
-}
-.signup-form > h2 {
-font-size: 1.6em
+  .signup-form > h2 {
+    font-size: 1.6em
+  }
 
+  #specifich {
+    font-size: 1.6em;
+  }
+
+  #voyagertext {
+    font-size: 14em;
+    letter-spacing: -10px;
+    -webkit-text-stroke: 1px white;
+  }
+
+  #landingtexth2 {
+  font-size: 2.5em;
+  }
+
+  #landingtexth3 {
+  font-size: 1.8em;
+  }
 }
-#specifich {
-  font-size: 1.6em;
-}
-#voyagertext {
-font-size: 14em;
-letter-spacing: -10px;
--webkit-text-stroke: 1px white;
-}
-#landingtexth2 {
-font-size: 2.5em;
-}
-#landingtexth3 {
-font-size: 1.8em;
-}
-}
+
+/* media queries (medium screens) */
 @media (max-width: 800px)
 {
   .showcase,
-  .showcase header
-  {
+  .showcase header {
     padding: 40px;
   }
-  .menu ul li a
-  {
-    font-size: 15px;
 
+  .menu ul li a {
+    font-size: 15px;
   }
-  .text h1
-  {
+
+  .text h1 {
     font-size: 4em;
   }
-  .text h2
-  {
+
+  .text h2 {
     font-size: 2em;
   }
+
   .text h3 {
     font-size: 1.6em;
   }
+
   .text p {
     font-size: 1em;
   }
@@ -434,58 +402,59 @@ font-size: 1.8em;
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
-   
-
-}
-.signup-form > h2 {
-font-size: 1.4em
-
-}
-#specifich {
-  font-size: 1.4em;
-}
-#voyagertext {
-  font-size: 9em;
-  letter-spacing: -5px;
-  -webkit-text-stroke: 0.8px white;
   }
+
+  .signup-form > h2 {
+    font-size: 1.4em
+  }
+
+  #specifich {
+    font-size: 1.4em;
+  }
+
+  #voyagertext {
+    font-size: 9em;
+    letter-spacing: -5px;
+    -webkit-text-stroke: 0.8px white;
+  }
+
   #landingtexth2 {
   font-size: 2em;
   }
+
   #landingtexth3 {
   font-size: 1.5em;
   }
 }
 
-
-
+/* media queries (smaller screens) */
 @media (max-width: 600px)
 {
   .showcase,
-  .showcase header
-  {
+  .showcase header {
     padding: 20px;
   }
-  .menu ul li a
-  {
-    font-size: 15px;
 
+  .menu ul li a {
+    font-size: 15px;
   }
-  .text h1
-  {
+
+  .text h1 {
     font-size: 3em;
   }
-  .text h2
-  {
+
+  .text h2 {
     font-size: 2.2em;
   }
+
   .text h3 {
     font-size: 1.8em;
   }
+
   .text p {
     font-size: 1em;
   }
-
+  
   .social2 {
     font-size: 35px;
   }
@@ -498,23 +467,26 @@ font-size: 1.4em
     margin-bottom: inherit;
   }
 
-.signup-form > h2 {
-font-size: 1em
+  .signup-form > h2 {
+    font-size: 1em
+  }
 
-}
-#specifich {
-  font-size: 1.3em;
-}
-#voyagertext {
-  font-size: 6em;
-  letter-spacing: -5px;
-  -webkit-text-stroke: 0.8px white;
+  #specifich {
+    font-size: 1.3em;
   }
+
+  #voyagertext {
+    font-size: 6em;
+    letter-spacing: -5px;
+    -webkit-text-stroke: 0.8px white;
+  }
+
   #landingtexth2 {
-  font-size: 2em;
+    font-size: 2em;
   }
+
   #landingtexth3 {
-  font-size: 1.8em;
+    font-size: 1.8em;
   }
 
 }
