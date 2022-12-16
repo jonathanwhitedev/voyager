@@ -167,8 +167,8 @@ header > a {
   transform: scale(0.5);
   transition: 0.5s;
   color: rgb(0, 66, 110);
-  -webkit-text-stroke: 0.4px white;
 }
+
 .social1 li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
