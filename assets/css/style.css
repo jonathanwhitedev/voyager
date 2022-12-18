@@ -115,13 +115,15 @@ header > a {
   line-height: 1em;
   color: #fff;
   text-decoration: underline;
+  line-height: 2em;
 }
 
 .text p {
   font-family: Lora, sans-serif;
   font-size: 1.2em;
   color: #fff;
-  font-weight: 400;
+  font-weight: 400;s
+  padding: 1em;
 }
 
 .text a {
@@ -328,9 +330,11 @@ header > a {
   }
   .text h3 {
     font-size: 1.6em;
+    line-height: 1.3em;
   }
   .text p {
     font-size: 1em;
+    padding: 1em;
   }
   .social2 {
     font-size: 35px;
@@ -487,6 +491,143 @@ header > a {
 
   #landingtexth3 {
     font-size: 1.8em;
+  }
+
+}
+
+/* media queries (smaller screens) */
+@media (max-width: 350px)
+{
+  .showcase,
+  .showcase header {
+    padding: 15px;
+  }
+
+  .menu ul li a {
+    font-size: 12px;
+  }
+
+  .text h1 {
+    font-size: 2.5em;
+  }
+
+  .text h2 {
+    font-size: 1.8em;
+  }
+
+  .text h3 {
+    font-size: 1.4em;
+  }
+
+  .text p {
+    font-size: 0.7em;
+  }
+  
+  .social2 {
+    font-size: 30px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: inherit;
+  }
+
+  .signup-form > h2 {
+    font-size: 0.9em;
+    min-width: auto;
+  }
+
+  #specifich {
+    font-size: 1em;
+  }
+
+  #voyagertext {
+    font-size: 4.5em;
+    letter-spacing: -5px;
+    -webkit-text-stroke: 0.8px white;
+  }
+
+  #landingtexth2 {
+    font-size: 1.6em;
+  }
+
+  #landingtexth3 {
+    font-size: 1.4em;
+  }
+
+}
+/* media queries (extra small screens) */
+@media (max-width: 280px)
+{
+  .showcase,
+  .showcase header {
+    padding: 15px;
+  }
+
+  .menu ul li a {
+    font-size: 10px;
+  }
+
+  .text h1 {
+    font-size: 2.4em;
+  }
+
+  .text h2 {
+    font-size: 1.7em;
+  }
+
+  .text h3 {
+    font-size: 1.3em;
+  }
+
+  .text p {
+    font-size: 0.7em;
+  }
+  
+  .social1 {
+    font-size: 30px;
+  }
+  .social2 {
+    font-size: 30px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: inherit;
+  }
+
+  .signup-form > h2 {
+    font-size: 0.9em;
+    max-width: auto;
+  }
+
+  #specifich {
+    font-size: 1em;
+  }
+
+  #specificp {
+    font-size: 12px;
+    max-width: 270px;
+  }
+
+  #voyagertext {
+    font-size: 4.5em;
+    letter-spacing: -5px;
+    -webkit-text-stroke: 0.8px white;
+  }
+
+  #landingtexth2 {
+    font-size: 1.6em;
+  }
+
+  #landingtexth3 {
+    font-size: 1.4em;
   }
 
 }
