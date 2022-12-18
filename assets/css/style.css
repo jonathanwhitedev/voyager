@@ -19,11 +19,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(3, 10, 15, 0.4);
+  background-color: #030a0f66;
 }
 
 header .logo {
-  color: rgb(0, 66, 110);
+  color: #00426e;
   cursor: pointer;
   font-size: 40px;
   font-family: Lora, sans-serif;
@@ -37,7 +37,7 @@ header > a {
 
 .menu {
   display: flex;
-  color: rgb(0, 66, 110);
+  color: #00426e;
   z-index: 20000;
   text-transform: uppercase;
   font-family: Roboto;
@@ -95,7 +95,7 @@ header > a {
 .text h1 { 
     font-family: Lora, sans-serif;
     font-size: 6em;
-    color: rgb(0, 66, 110);
+    color: #00426e;
     -webkit-text-stroke: 0.4px white;
 }
 
@@ -122,7 +122,7 @@ header > a {
   font-family: Lora, sans-serif;
   font-size: 1.2em;
   color: #fff;
-  font-weight: 400;s
+  font-weight: 400;
   padding: 1em;
 }
 
@@ -135,7 +135,7 @@ header > a {
   text-decoration: none;
   font-weight: 500;
   margin-top: 10px;
-  color: rgb(0, 66, 110);
+  color: #00426e;
   letter-spacing: 2px;
   transition: 0.2s;
   line-height: 1em;
@@ -155,12 +155,12 @@ header > a {
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  color: rgb(0, 66, 110);
+  color: #00426e;
 }
 
 .social1 li {
   list-style: none;
-  color: rgb(0, 66, 110);
+  color: #00426e;
 }
 
 .social1 li a {
@@ -168,7 +168,7 @@ header > a {
   margin: 20px;
   transform: scale(0.5);
   transition: 0.5s;
-  color: rgb(0, 66, 110);
+  color: #00426e;
 }
 
 .social1 li a:hover {
@@ -217,7 +217,7 @@ header > a {
 
 .signup-form {
   color: #fff;
-  background-color:rgba(0, 66, 110, 0.8);
+  background-color:#00426ecc;
   min-width: 350px;
   left: 10%;
   padding: 10px;
@@ -244,7 +244,7 @@ header > a {
 }
 
 .text-input:hover {
-  border-color:rgb(0, 66, 110);
+  border-color:00426e;
 }
 
 .join-button {
@@ -257,7 +257,7 @@ header > a {
   text-decoration: none;
   font-weight: 400;
   margin-top: 10px;
-  color: rgb(0, 66, 110);
+  color: #00426e;
   letter-spacing: 2px;
   transition: 0.2s;
   line-height: 1em;
@@ -284,7 +284,7 @@ header > a {
   font-family: Roboto, sans-serif;
   font-size: 3em;
   font-weight: 400;
-  color: rgb(0, 66, 110);
+  color: #00426e;
   line-height: 1em;
   text-transform: uppercase;
   position: relative;
