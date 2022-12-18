@@ -21,13 +21,13 @@ header {
   align-items: center;
   background-color: #030a0f66;
 }
-
+/* webkit stroke used to stand out against header using white */
 header .logo {
   color: #00426e;
   cursor: pointer;
   font-size: 40px;
   font-family: Lora, sans-serif;
-  -webkit-text-stroke: 0.4px white;
+  -webkit-text-stroke: 0.4px #fff;
   letter-spacing: -5px;
 }
 
@@ -48,13 +48,13 @@ header > a {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* webkit stroke used to stand out against header using black */
 .menu ul li a {
   text-decoration: none;
   font-size: 22px;
-  color: white;
+  color: #fff;
   padding: 0px, 10px;
-  -webkit-text-stroke: 0.6px black;
+  -webkit-text-stroke: 0.6px #000000;
   word-spacing: 10px;
   text-align: center;
 }
@@ -71,7 +71,7 @@ header > a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(142, 174, 196);
+  background: #8eaec4;
   transition: 0.5s;
   z-index: 2;
   }
@@ -91,7 +91,7 @@ header > a {
   position: relative;
   z-index: 10;
 }
-
+/* webkit stroke used to stand out against background using white */
 .text h1 { 
     font-family: Lora, sans-serif;
     font-size: 6em;
@@ -143,7 +143,7 @@ header > a {
 
 .text a:hover {
   letter-spacing: 6px;
-  background-color:rgb(142, 174, 196);
+  background-color: #8eaec4;
   color:#fafafa;
 }
 
@@ -183,7 +183,7 @@ header > a {
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  color: white;
+  color: #fff;
 }
 
 .social2 li {
@@ -195,7 +195,7 @@ header > a {
   margin: 20px;
   transform: scale(0.5);
   transition: 0.5s;
-  color: white;
+  color: #fff;
   bottom: auto;
 }
 
@@ -268,7 +268,7 @@ header > a {
   color:#fafafa;
   letter-spacing: 6px;
 }
-
+/* webkit stroke used to stand out against background using white */
 #voyagertext {
   font-family: Lora, sans-serif;
   font-size: 20em;
@@ -279,7 +279,7 @@ header > a {
   -webkit-text-stroke: 1.5px white;
   letter-spacing: -20px;
 }
-
+/* webkit stroke used to stand out against background using white */
 #landingtexth2 {
   font-family: Roboto, sans-serif;
   font-size: 3em;
@@ -297,7 +297,7 @@ header > a {
     font-size: 2em;
     font-weight: 400;
     line-height: 1em;
-    color: white;
+    color: #fff;
     position: relative;
     bottom: 75px;
     text-decoration: none;
