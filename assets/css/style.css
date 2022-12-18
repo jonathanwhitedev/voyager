@@ -276,7 +276,7 @@ header > a {
   position: relative;
   bottom: 75px;
   color: transparent;
-  -webkit-text-stroke: 1.5px white;
+  -webkit-text-stroke: 0.5px #fff;
   letter-spacing: -20px;
 }
 /* webkit stroke used to stand out against background using white */
@@ -289,7 +289,7 @@ header > a {
   text-transform: uppercase;
   position: relative;
   bottom: 75px;
-  -webkit-text-stroke: 0.2px white;
+  -webkit-text-stroke: 0.2px #fff;
 }
 
 #landingtexth3 {
@@ -357,7 +357,6 @@ header > a {
   #voyagertext {
     font-size: 14em;
     letter-spacing: -10px;
-    -webkit-text-stroke: 1px white;
   }
 
   #landingtexth2 {
@@ -419,7 +418,6 @@ header > a {
   #voyagertext {
     font-size: 9em;
     letter-spacing: -5px;
-    -webkit-text-stroke: 0.8px white;
   }
 
   #landingtexth2 {
@@ -428,6 +426,11 @@ header > a {
 
   #landingtexth3 {
   font-size: 1.5em;
+  }
+
+  .text a {
+    font-size: 0.7em;
+    padding: 5px;
   }
 }
 
@@ -482,7 +485,6 @@ header > a {
   #voyagertext {
     font-size: 6em;
     letter-spacing: -5px;
-    -webkit-text-stroke: 0.8px white;
   }
 
   #landingtexth2 {
@@ -547,7 +549,6 @@ header > a {
   #voyagertext {
     font-size: 4.5em;
     letter-spacing: -5px;
-    -webkit-text-stroke: 0.8px white;
   }
 
   #landingtexth2 {
@@ -619,7 +620,6 @@ header > a {
   #voyagertext {
     font-size: 4.5em;
     letter-spacing: -5px;
-    -webkit-text-stroke: 0.8px white;
   }
 
   #landingtexth2 {
