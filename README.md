@@ -15,12 +15,12 @@ Another shortfall noticed was that for those who would like to experience a new 
 Each page on the Voyager website (Home, Spotlight, About, Sign-up and Welcome) keep a clear and modern layout throughout that is accessible for all, gives the user an easy to follow grasp of what the website offers.
 
 ## Home
-Home provides a simple and clean layout with key information on what the website offers "Inspiration. Education. Adventure. From around the world, to your inbox. Weekly". This is followed with a clickable button of "Sign up today" which sends the user direct to sign-up page. A dreamlike hero image is also displayed to cover entire background, this provides user a sense of the website and evokes memories of holidays, travelling and good times, all which provide a positive user experinece. A large "Voyager" font in modern text in the centre of the page keeps the attracts the user to the modern lines. A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
+Home provides a simple and clean layout with key information on what the website offers "Inspiration. Education. Adventure. From around the world, to your inbox. Weekly". This is followed with a clickable button of "Lets Explore" which sends the user dthrough onto the next page. A dreamlike hero video is also displayed to cover entire background, this provides user a sense of the website and evokes memories of holidays, travelling and good times, all which provide a positive user experinece. A large "Voyager" font in modern text in the centre of the page keeps the attracts the user to the modern lines. A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
   
 
 ## Spotlight
 
-Spotlight provides a free no obligation sign up view of what is on offer in this weeks free newsletter, this is created using divs and spans and images with links to external websites including, food recipes "what were eating", places of interest "Where were going", and events in Iceland and the UK "Whats happening". This page aims to give the user the idea of what to expect and much more upon signup.
+Spotlight provides a free no obligation sign up view of what is on offer in this weeks free newsletter. The focus for this month is Iceland and shows the user a basic undertsnading of what to expect on sign up of the newsletter. 
  Again, A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
 
 ## About
@@ -32,10 +32,8 @@ The about section aims to provide key information to the user in a playful manne
 Sign up page provides the form and reiterates what the user is signing up for with a simple easily readable paragraph. a simple form consisting of "first name" "last name" and "email address" and clickable submit button. All entries of the form must filled out in order to signup. A prompt will follow if any information is missed or not filled out inlcuding a @ symbol. Upon sign up, a new linked page loads up on external webpage to confirm free subscription and a thank you. This is called "Welcome aboard Voyager".
  A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
 
-
-## Welcome 
-This as above opens a new link website that confirms to the user that registration is complete and greats them with the worlds "Welcome Aboard Voyager" "We cannot wait to share our home to your home"
-
+## Welcome
+This is a hidden page only appearing upon successfully signing up to the newsletter. this tells the user that sign up has been successful and to expect free newsletters in their inbox weekly. There is information on no spam promise as well as being able to unsubscribe at any time. A clickable link is supplied to return home as well the same nav and social links as all previous pages.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -59,7 +57,7 @@ Home page or landing page gives clear information in a playful and modern approa
 
 
 - __Spotlight__
-- A spotlight section that gives the user a compressed insight as to what signing up to the newsletter brings, included are 3 sections of images and clickable links that navigate the user to external websites, these links provide additional information to the user from relevant sources of, what were eating, where were going and whats happening for any given week. This provides the user value where by theyy can still gain fun and insightful information without the need to sign up if they choose not to. These are refreshed weekly to coincide with the 4 weeks featuring Iceland.
+- A spotlight section that gives the user a compressed insight as to what signing up to the newsletter brings. This provides the user value where by they can still gain fun and insightful information without the need to sign up if they choose not to. These are refreshed weekly to coincide with the 4 weeks featuring Iceland.
 
 ![Spotlight Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
@@ -99,6 +97,7 @@ Home page or landing page gives clear information in a playful and modern approa
 ## Wireframes
 
 Include images of website as a reponsive mock-up on various screensizes (use resource https://ui.dev/amiresponsive)
+The following screensizes of my wireframes can be found here: (https://ui.dev/amiresponsive?url=https://jonathanwhitedev.github.io/voyager/index.html)
 
 ## Testing 
 
@@ -114,13 +113,13 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator] on all 5 HTML pages of website as follows: Index (https://validator.w3.org/nu/?doc=https%3A%2F%2Fjonathanwhitedev.github.io%2Fvoyager%2Findex.html) Spotlight (https://validator.w3.org/nu/?doc=https%3A%2F%2Fjonathanwhitedev.github.io%2Fvoyager%2Fspotlight.html) About (https://validator.w3.org/nu/?doc=https%3A%2F%2Fjonathanwhitedev.github.io%2Fvoyager%2Fabout.html) Sign Up (https://validator.w3.org/nu/?doc=https%3A%2F%2Fjonathanwhitedev.github.io%2Fvoyager%2Fsignup.html) Form (https://validator.w3.org/nu/?doc=https%3A%2F%2Fjonathanwhitedev.github.io%2Fvoyager%2Fsignup.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjonathanwhitedev.github.io%2Fvoyager%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No extra bugs were found upon testing through above and I'm happy this is a responsive clean webpage. 
 
 ## Deployment
 
@@ -131,42 +130,22 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://jonathanwhitedev.github.io/voyager/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+I will firstly credit code institute for the help with this page, the love running project helped me immensely when i found the going tough or needed to remember small details such as how to use social link tags etc. I also want to shout out to the code institute tutors for some help on minor tweaks to point me in directions where i was a little lost and they helped me understand where i was going wrong. Lastly i'd like to thank my dilligent mentor who helped me research other areas such as flexbox and grid, and even told me to start with developing in mobile screens firstly and start backwards from there to desktop. (oh if i had only listened to that last advice, would have saved me so much time!) This was a steep learning curve for me but because of the minor mistakes and not following flex/media at the beginning i learnt the hard way and in turn learnt an awful lot through the stress of it all!
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+Content and media inspiration is as follows below;
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The button anchor tags design sections were taken from finding them on Traversy Media youtube channel and video https://www.youtube.com/watch?v=8MgpE2DTTKA&t=1114s these were then redesigned further with colour that was suitable for the page and font/sizes. The same video was also used for finding social li a transform scales to improve look of social icons and pop from page.
+- The social icons in the bottom of section of all pages were taken from [Font Awesome](https://fontawesome.com/)
+- The webkit stroke function was found after heavy research in needing a solution to allow text to pop off the background to be unique and more readble against the background colours and video content, this was found at (https://css-tricks.com/adding-stroke-to-web-text/) I then incorporated this into my css for my specific needs.
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- All of the videos (5) used on all pages are from This Open Source site (http://pexels.com) these were then resaved as different file names, as text was either in russian or had spaces and would fail testing or reading for other developers.
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
