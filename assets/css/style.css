@@ -533,11 +533,6 @@ header > a {
 /* media queries (extra small screens) */
 @media (max-width: 280px)
 {
-  .showcase,
-  .showcase header {
-    padding: 15px;
-  }
-
   .menu ul li a {
     font-size: 10px;
   }
