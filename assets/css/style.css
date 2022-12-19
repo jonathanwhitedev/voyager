@@ -21,6 +21,7 @@ header {
   align-items: center;
   background-color: #030a0f66;
 }
+
 /* webkit stroke used to stand out against header using white */
 header .logo {
   color: #00426e;
@@ -31,7 +32,7 @@ header .logo {
   letter-spacing: -5px;
 }
 
-header > a {
+header>a {
   text-decoration: none;
 }
 
@@ -41,13 +42,14 @@ header > a {
   z-index: 20000;
   text-transform: uppercase;
   font-family: Roboto;
-  }
+}
 
 .menu ul li {
   list-style: none;
   display: inline-block;
   margin-left: 25px;
 }
+
 /* webkit stroke used to stand out against header using black */
 .menu ul li a {
   text-decoration: none;
@@ -60,7 +62,7 @@ header > a {
 }
 
 .menu a:hover {
-    border-bottom: 1px solid #114;
+  border-bottom: 1px solid #114;
 }
 
 .showcase {
@@ -75,7 +77,7 @@ header > a {
   transition: 0.5s;
   z-index: 2;
   position: fixed;
-  }
+}
 
 .showcase video {
   position: fixed;
@@ -85,19 +87,20 @@ header > a {
   height: 100%;
   object-fit: cover;
   filter: brightness(70%);
- } 
+}
 
 
 .text {
   position: relative;
   z-index: 10;
 }
+
 /* webkit stroke used to stand out against background using white */
-.text h1 { 
-    font-family: Lora, sans-serif;
-    font-size: 6em;
-    color: #00426e;
-    -webkit-text-stroke: 0.4px white;
+.text h1 {
+  font-family: Lora, sans-serif;
+  font-size: 6em;
+  color: #00426e;
+  -webkit-text-stroke: 0.4px white;
 }
 
 .text h2 {
@@ -145,13 +148,13 @@ header > a {
 .text a:hover {
   letter-spacing: 6px;
   background-color: #8eaec4;
-  color:#fafafa;
+  color: #fafafa;
 }
 
 .social1 {
   position: absolute;
   z-index: 10;
-  bottom: 5px;
+  bottom: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,7 +182,7 @@ header > a {
 .social2 {
   position: absolute;
   z-index: 100;
-  bottom: 5px;
+  bottom: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,7 +216,7 @@ header > a {
 
 .signup-form {
   color: #fff;
-  background-color:#00426ecc;
+  background-color: #00426ecc;
   min-width: 350px;
   left: 10%;
   padding: 10px;
@@ -230,9 +233,9 @@ header > a {
 
 .text-input {
   background: transparent;
-  color:#fafafa;
-  width:100%;
-  height:25px;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
   margin: 0 0 2px 0;
   border: 1px solid #fafafa;
   border-radius: 2px;
@@ -241,7 +244,7 @@ header > a {
 }
 
 .text-input:hover {
-  border-color:00426e;
+  border-color: 00426e;
 }
 
 .join-button {
@@ -261,10 +264,11 @@ header > a {
 }
 
 .join-button:hover {
-  background-color:rgb(142, 174, 196);
-  color:#fafafa;
+  background-color: rgb(142, 174, 196);
+  color: #fafafa;
   letter-spacing: 6px;
 }
+
 /* webkit stroke used to stand out against background using white */
 #voyagertext {
   font-family: Lora, sans-serif;
@@ -276,6 +280,7 @@ header > a {
   -webkit-text-stroke: 0.5px #fff;
   letter-spacing: -20px;
 }
+
 /* webkit stroke used to stand out against background using white */
 #landingtexth2 {
   font-family: Roboto, sans-serif;
@@ -290,41 +295,46 @@ header > a {
 }
 
 #landingtexth3 {
-    font-family: Lora, sans-serif;
-    font-size: 2em;
-    font-weight: 400;
-    line-height: 1em;
-    color: #fff;
-    position: relative;
-    bottom: 75px;
-    text-decoration: none;
-  }
+  font-family: Lora, sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1em;
+  color: #fff;
+  position: relative;
+  bottom: 75px;
+  text-decoration: none;
+}
 
 #specifich {
   text-decoration: underline;
 }
+
 .button {
   position: relative;
   bottom: 75px;
 }
 
 /* media queries (larger screens) */
-@media (max-width: 1250px)
-{
+@media (max-width: 1250px) {
+
   .showcase,
   .showcase header {
     padding: 60px;
   }
+
   .menu ul li a {
     font-size: 20px;
 
   }
+
   .text h1 {
     font-size: 4em;
   }
+
   .text h2 {
     font-size: 3em;
   }
+
   .text h3 {
     font-size: 2em;
     line-height: 1.3em;
@@ -340,7 +350,7 @@ header > a {
     align-items: center;
   }
 
-  .signup-form > h2 {
+  .signup-form>h2 {
     font-size: 1.6em
   }
 
@@ -354,17 +364,17 @@ header > a {
   }
 
   #landingtexth2 {
-  font-size: 2.5em;
+    font-size: 2.5em;
   }
 
   #landingtexth3 {
-  font-size: 1.8em;
+    font-size: 1.8em;
   }
 }
 
 /* media queries (medium screens) */
-@media (max-width: 900px)
-{
+@media (max-width: 900px) {
+
   .showcase,
   .showcase header {
     padding: 40px;
@@ -390,7 +400,7 @@ header > a {
     flex-direction: column-reverse;
   }
 
-  .signup-form > h2 {
+  .signup-form>h2 {
     font-size: 1.4em
   }
 
@@ -404,11 +414,11 @@ header > a {
   }
 
   #landingtexth2 {
-  font-size: 2em;
+    font-size: 2em;
   }
 
   #landingtexth3 {
-  font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   .text a {
@@ -418,8 +428,8 @@ header > a {
 }
 
 /* media queries (smaller screens) */
-@media (max-width: 600px)
-{
+@media (max-width: 600px) {
+
   .showcase,
   .showcase header {
     padding: 20px;
@@ -448,7 +458,7 @@ header > a {
   .text p {
     font-size: 1em;
   }
-  
+
   .social2 {
     font-size: 35px;
   }
@@ -457,7 +467,7 @@ header > a {
     margin-bottom: inherit;
   }
 
-  .signup-form > h2 {
+  .signup-form>h2 {
     font-size: 1em
   }
 
@@ -481,8 +491,8 @@ header > a {
 }
 
 /* media queries (smaller screens) */
-@media (max-width: 375px)
-{
+@media (max-width: 375px) {
+
   .showcase,
   .showcase header {
     padding: 15px;
@@ -507,7 +517,7 @@ header > a {
   .text p {
     font-size: 0.7em;
   }
-  
+
   .social2 {
     font-size: 30px;
   }
@@ -530,9 +540,9 @@ header > a {
   }
 
 }
+
 /* media queries (extra small screens) */
-@media (max-width: 280px)
-{
+@media (max-width: 280px) {
   .menu ul li a {
     font-size: 10px;
   }
@@ -552,7 +562,7 @@ header > a {
   .text p {
     font-size: 0.7em;
   }
-  
+
   .social1 {
     font-size: 30px;
   }
@@ -564,10 +574,11 @@ header > a {
   .signup-form {
     min-width: 260px;
   }
-  
+
   .signup-form h2 {
     font-size: 12px;
   }
+
   #specifich {
     font-size: 1em;
   }
