@@ -182,7 +182,7 @@ header>a {
 .social2 {
   position: absolute;
   z-index: 100;
-  bottom: 80px;
+  bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
