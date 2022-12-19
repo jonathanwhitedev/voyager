@@ -74,6 +74,7 @@ header > a {
   background: #8eaec4;
   transition: 0.5s;
   z-index: 2;
+  position: fixed;
   }
 
 .showcase video {
@@ -207,12 +208,7 @@ header > a {
   display: flex;
   margin: 2em;
   gap: 2em;
-}
-
-.flexbox-1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  z-index: 30000;
 }
 
 .signup-form {
@@ -229,6 +225,7 @@ header > a {
   margin-bottom: 20px;
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
+  align-items: center;
 }
 
 .text-input {
@@ -319,23 +316,20 @@ header > a {
     padding: 60px;
   }
   .menu ul li a {
-    font-size: 16px;
+    font-size: 20px;
 
   }
   .text h1 {
     font-size: 4em;
   }
   .text h2 {
-    font-size: 2em;
+    font-size: 3em;
   }
   .text h3 {
-    font-size: 1.6em;
+    font-size: 2em;
     line-height: 1.3em;
   }
-  .text p {
-    font-size: 1em;
-    padding: 1em;
-  }
+
   .social2 {
     font-size: 35px;
   }
@@ -369,31 +363,23 @@ header > a {
 }
 
 /* media queries (medium screens) */
-@media (max-width: 800px)
+@media (max-width: 900px)
 {
   .showcase,
   .showcase header {
     padding: 40px;
   }
 
-  .menu ul li a {
-    font-size: 15px;
-  }
-
-  .text h1 {
-    font-size: 4em;
-  }
-
   .text h2 {
-    font-size: 2em;
+    font-size: 2.6em;
   }
 
   .text h3 {
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
 
   .text p {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .social2 {
@@ -401,10 +387,7 @@ header > a {
   }
 
   .container {
-    display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .signup-form > h2 {
@@ -442,6 +425,10 @@ header > a {
     padding: 20px;
   }
 
+  header .logo {
+    font-size: 30px
+  }
+
   .menu ul li a {
     font-size: 15px;
   }
@@ -451,11 +438,11 @@ header > a {
   }
 
   .text h2 {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 
   .text h3 {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 
   .text p {
@@ -467,10 +454,6 @@ header > a {
   }
 
   .container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: inherit;
   }
 
@@ -498,7 +481,7 @@ header > a {
 }
 
 /* media queries (smaller screens) */
-@media (max-width: 350px)
+@media (max-width: 375px)
 {
   .showcase,
   .showcase header {
@@ -527,19 +510,6 @@ header > a {
   
   .social2 {
     font-size: 30px;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: inherit;
-  }
-
-  .signup-form > h2 {
-    font-size: 0.9em;
-    min-width: auto;
   }
 
   #specifich {
@@ -591,30 +561,25 @@ header > a {
   .social1 {
     font-size: 30px;
   }
+
   .social2 {
     font-size: 30px;
   }
 
-  .container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: inherit;
+  .signup-form {
+    min-width: 260px;
   }
-
-  .signup-form > h2 {
-    font-size: 0.9em;
-    max-width: auto;
+  
+  .signup-form h2 {
+    font-size: 12px;
   }
-
   #specifich {
     font-size: 1em;
   }
 
   #specificp {
     font-size: 12px;
-    max-width: 270px;
+    max-width: 260px;
   }
 
   #voyagertext {
