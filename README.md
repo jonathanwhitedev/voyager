@@ -1,8 +1,9 @@
 # Voyager
 
-View my live project here! [voyager]
+View my live project here! [https://jonathanwhitedev.github.io/voyager/] 
 
 Voyager is a new website club and newsletter designed to celebrate our unique planet and the thousands of different cultures and traditions each country or territary around the world possesses. This weekly newsletter provides the user with fundamental and educational information on what each country has to offer from inspiration, adventure, travel tips, folklore tales and interviews, religious festivities, amazing food and drinks recipes, and local events. Therefore it remains inclusive for people to be involved without having to travel to featured country. The aim is to provide 1 month of 4 different and vibrant newsletters by sign up, which are emailed to the user to get a varied and informative grasp on each location. These are always fun filled and educational. A new month provides an entirely different and unique country to explore in fabulous detail. Our first month features Iceland.
+
 
 ## User Stories and UX
 
@@ -14,28 +15,37 @@ Another shortfall noticed was that for those who would like to experience a new 
 
 Each page on the Voyager website (Home, Spotlight, About, Sign-up and Welcome) keep a clear and modern layout throughout that is accessible for all, gives the user an easy to follow grasp of what the website offers.
 
-## Home
+
+## Home Landing Page
 Home provides a simple and clean layout with key information on what the website offers "Inspiration. Education. Adventure. From around the world, to your inbox. Weekly". This is followed with a clickable button of "Lets Explore" which sends the user dthrough onto the next page. A dreamlike hero video is also displayed to cover entire background, this provides user a sense of the website and evokes memories of holidays, travelling and good times, all which provide a positive user experinece. A large "Voyager" font in modern text in the centre of the page keeps the attracts the user to the modern lines. A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
-  
 
-## Spotlight
-
-Spotlight provides a free no obligation sign up view of what is on offer in this weeks free newsletter. The focus for this month is Iceland and shows the user a basic undertsnading of what to expect on sign up of the newsletter. 
- Again, A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
+![Landing Page](assets/media-readme/landing-page.png)
 
 ## About
 
 The about section aims to provide key information to the user in a playful manner to introduce the company Voyager and provide infomration on what to expect upon signing up to their free newsletter.
  Again, A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
 
-## Sign-up
+![About Page](assets/media-readme/about-page.png)
+
+## Spotlight
+
+Spotlight provides a free no obligation sign up view of what is on offer in this weeks free newsletter. The focus for this month is Iceland and shows the user a basic undertstanding of what to expect on sign up of the newsletter. 
+ Again, A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
+
+![Spotlight Page](assets/media-readme/spotlight-page.png)
+
+## Sign-Up
 Sign up page provides the form and reiterates what the user is signing up for with a simple easily readable paragraph. a simple form consisting of "first name" "last name" and "email address" and clickable submit button. All entries of the form must filled out in order to signup. A prompt will follow if any information is missed or not filled out inlcuding a @ symbol. Upon sign up, a new linked page loads up on external webpage to confirm free subscription and a thank you. This is called "Welcome aboard Voyager".
  A Small company logo in the top right of the website is also used as a clickable link to get back to the homepage at any point and reamins on all pages. A simple to understand navigation tab also allows user to easily navigate clickable pages. Lastly a footer of the social media links for Voyager is also provided on every page.
+
+![Sign-Up Page](assets/media-readme/sign-up-page.png)
 
 ## Welcome
 This is a hidden page only appearing upon successfully signing up to the newsletter. this tells the user that sign up has been successful and to expect free newsletters in their inbox weekly. There is information on no spam promise as well as being able to unsubscribe at any time. A clickable link is supplied to return home as well the same nav and social links as all previous pages.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Welcome Page](assets/media-readme/welcome-page.png)
+
 
 ## Features 
 
@@ -45,47 +55,28 @@ Voyager includes the following;
 
 - __Navigation Bar__
 
-  - Featured on every page, the fully responsive navigation bar includes links to the Logo, Home page, Spotlight page and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on every page, the fully responsive navigation bar includes links to the Logo "Vg" which takes the user back to the  Home page, an About page, Spotlight page and Sign Up page are also in the nav bar and is identical in each page to allow for easy navigation.
   - This feature will allow the user to navigate effortlessly from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+  ![Nav Bar](assets/media-readme/header-navbar.png)
 
-- __Home__
-Home page or landing page gives clear information in a playful and modern approach to users that they are on a travel website with clickable sign up button included that takes user direct to sign up page. The hero image evokes deep feelings of travelling and the excitement factor this brings to them in an inviting way to discover more.
+- __Form__
+  - The Form in the Sign up section provides the user a easy, fast, and efficient way to sign up to our newsletter without taking unnecessary information such as birthday, gender, home address etc. The informtion is transparent and the user undertsands this is a totally free service that is emailed in newsletter form, weekly. The user will see the value of signing up for the newsletter and what it brings to them. All detial are required to sign up (first name, last name and email) otherwise a mandatory message appears.
 
-![Home Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  ![Form](assets/media-readme/form.png)
 
-
-- __Spotlight__
-- A spotlight section that gives the user a compressed insight as to what signing up to the newsletter brings. This provides the user value where by they can still gain fun and insightful information without the need to sign up if they choose not to. These are refreshed weekly to coincide with the 4 weeks featuring Iceland.
-
-![Spotlight Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- These website links and accreditations are as follows;
-
-- 1.
-- 2.
-- 3.
-
-- __About__
-- About section gives information about what we provide as a business and who we are, that is clear, punchy, and playful. We want the user to understand what we provide as a company so that they are not too heavily distracted yet remain engaged, providing value to their time. 
-
-![About Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
-- __Sign Up__
-- Sign up section provides the user a easy, fast, and efficient way to sign up to our newsletter without taking unnecessary information such as birthday, gender, home address etc. The informtion is transparent and the user undertsands this is a totally free service that is emailed in newsletter form, weekly.This user will see the value of signing up for the newsletter and what it brings to them.
-
-![Sign Up Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+- __Button__
+  - A button is on every page and uses an intuitve way for the user to quickly scroll between all the pages (in order) of appearance. The user knows they have scrolled over the button as it inverts its colours and has a text transformation to capture the attention of the user.
+ 
+  ![Button](assets/media-readme/button.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Voyager. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media where they can find out even more about Voyager and its accreditations elsewhere.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  ![Footer](assets/media-readme/social-links-footer.png)
 
-
-- In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Features Left to Implement
 
@@ -96,18 +87,38 @@ Home page or landing page gives clear information in a playful and modern approa
 
 ## Wireframes
 
-Include images of website as a reponsive mock-up on various screensizes (use resource https://ui.dev/amiresponsive)
-The following screensizes of my wireframes can be found here: (https://ui.dev/amiresponsive?url=https://jonathanwhitedev.github.io/voyager/index.html)
+![Responsive Mockup](assets/media-readme/amireponsive-voyager.png)
+
+The following screensizes of my wireframes can also be found here: (https://ui.dev/amiresponsive?url=https://jonathanwhitedev.github.io/voyager/index.html)
+
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Overall, I am very happy with the testing outcomes with lighthouse, HTML, and CSS validation. I was concerned the video backgrounds may have an effect upon this but im glad that choosing short videos with lower quality may have helped my cause with this. I have tested all pages and functions, clickable links of social media links in nav bar as well as buttons, forms, and nav bar buttons. All of these work fast and clean for optimisation for the user to have a streamless experience on the website, all of their goals can be met simply and concisely with straightforward webpages that are engaging.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I have tested this website on a macbook pro with a 32 inch external monitor, an Ipad Pro, and a Iphone 13 pro max. I have also used reponsive design in Google dev tools with other devices such as a Surface Duo, Samsung galaxy devices including the fold, and other smaller devices of 280px max width. These were written with extensive media queries to be inclusive for all users regardless of the device they use.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+It is noticed however that video backgrounds do not tend to work on smartphones - my personal iphone 13 pro max for instance. This may be because of the memory usage this website requires, however, i am happy that although the video may not play, a still of the video is still present and does in no way detract from the user experience and all functions still work fast and efficiently.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Performance Testing 
+
+- Lighthouse (Chrome Dev Tools)
+  - No performance issues were returned when passing through the official Lighthouse feature on google chrome dev tools [https://developer.chrome.com/docs/lighthouse/overview/] on all 5 HTML pages of website. Scores of over 90% were present throughout as per following screenshots:
+
+  Index Page
+ ![Index Test](assets/media-readme/chromelighthouseresult-index.png)
+  
+  About Page
+ ![About Test](assets/media-readme/chromelighthouseresult-about.png)
+
+  Spotlight Page
+ ![Spotlight Test](assets/media-readme/chromelighthouseresult-spotlight.png)
+
+  Sign Up Page
+ ![Sign Up Test](assets/media-readme/chromelighthouseresult-signup.png)
+
+  Welcome Page
+ ![Welcome Test](assets/media-readme/chromelighthouseresult-welcome.png)
 
 
 ### Validator Testing 
@@ -125,12 +136,7 @@ No extra bugs were found upon testing through above and I'm happy this is a resp
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://jonathanwhitedev.github.io/voyager/
+- The site was deployed to GitHub pages. The live link can be found here - https://jonathanwhitedev.github.io/voyager/
 
 
 ## Credits 
