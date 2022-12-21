@@ -1,17 +1,25 @@
 # Voyager
 
-View my live project here! [https://jonathanwhitedev.github.io/voyager/] 
+View my live project here! [Voyager](https://jonathanwhitedev.github.io/voyager/) 
 
 Voyager is a new website club and newsletter designed to celebrate our unique planet and the thousands of different cultures and traditions each country or territary around the world possesses. This weekly newsletter provides the user with fundamental and educational information on what each country has to offer from inspiration, adventure, travel tips, folklore tales and interviews, religious festivities, amazing food and drinks recipes, and local events. Therefore it remains inclusive for people to be involved without having to travel to featured country. The aim is to provide 1 month of 4 different and vibrant newsletters by sign up, which are emailed to the user to get a varied and informative grasp on each location. These are always fun filled and educational. A new month provides an entirely different and unique country to explore in fabulous detail. Our first month features Iceland.
 
 
 ## User Stories and UX
 
+- __As a visiting user, I would like to signup for the newsletter.__
+
 As part of the UX specification and planning phase it was noted that there are currently no available newsletter websites that offer services to consumers looking for varied inspirational and educational tips of countries around the world in great detail. This was an opening to provide a website that provided a sign up for people. A multitude of people surveyed agreed that there was no website that offered such a vast array of information with a free newsletter, sent weekly via email. This would be something they felt would be a valuable USP. 
+
+- __As a visiting user, I would like to be inspired and educated.__
 
 Over three quarters of those surveyed (100) also came to agreement there was no one place online that provided inspiration for holidays and trips with such great detail on places to visit, sites to see, unique experiencs to enjoy such as festivities, best times of the year to visit with links to external resources such as travel advice provided by goverment bodies etc.
 
+- __As a visiting user, I would inspiration to try at home.__
+
 Another shortfall noticed was that for those who would like to experience a new vibrant culture but were unable to physically travel there, would benefit greatly from recipes and drinks menus and local events happening around the UK that celebrated the culture being displayed for that month. For example Diwali celebrations happening in London, restaurants that serve the most authentic food from that nation with reviews, educational facts and stories of that country that can be read by children and adults alike. Almost all that were surveyed in the UX consulation stage agreed there was no one website that provided all this useful information and more, so readily availabe as Voyager.
+
+- __As a visiting user, I would like concise, clear information.__
 
 Each page on the Voyager website (Home, Spotlight, About, Sign-up and Welcome) keep a clear and modern layout throughout that is accessible for all, gives the user an easy to follow grasp of what the website offers.
 
@@ -133,11 +141,34 @@ It is noticed however that video backgrounds do not tend to work on smartphones 
 No extra bugs were found upon testing through above and I'm happy this is a responsive clean webpage. 
 
 ## Deployment
+  - The site was deployed to GitHub pages. The live link can be found here - https://jonathanwhitedev.github.io/voyager/
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+  __To deploy the project:__
+   1. In the [GitHub repository](https://github.com/jonathanwhitedev/voyager), Navigate to the settings tab.
+   2. Once in the settings, navigate to the pages tab on the left hand side.
+   3. In the build and deployment section under Branch, select the "master" branch and click Save.
+   4. Once the master branch has been selected, the page will be automatically refreshed and a display indicates the successful deployment and the link to the address as below.
 
-- The site was deployed to GitHub pages. The live link can be found here - https://jonathanwhitedev.github.io/voyager/
 
+   ![Deployment](assets/media-readme/Deploy-project.png)
+
+ __To run the website on a local screen:__
+   1. Go to the [GitHub repository](https://github.com/jonathanwhitedev/voyager).
+   2. Once in there, click on the green Code button and Download ZIP.
+   3. Extract the ZIP file on your local machine.
+   4. Run the index.html file in a browser.
+
+
+   ![Deployment](assets/media-readme/Run-website-local.png)
+
+ __To clone the repo:__
+   1. Go to the [GitHub repository](https://github.com/jonathanwhitedev/voyager).
+   2. Click on the green Code button and directly underneath as shown, copy the HTTPs link there.
+   3. Open a GitBash terminal and navigate to the directory where you want to locate the clone.
+   4. Type "git clone" and paste the copied HTTPs link, press the enter key to begin the clone process.
+
+
+   ![Deployment](assets/media-readme/Clone-Repo.png)
 
 ## Credits 
 
@@ -155,3 +186,6 @@ Content and media inspiration is as follows below;
 
 - All of the videos (5) used on all pages are from This Open Source site (http://pexels.com) these were then resaved as different file names, as text was either in russian or had spaces and would fail testing or reading for other developers.
 
+## Thank you for taking the time to view my README file, hope you enjoy the website. 
+
+## Jonathan White
