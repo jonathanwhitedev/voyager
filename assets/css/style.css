@@ -8,6 +8,7 @@
   text-align: center;
 }
 
+/* Headers and Nav */
 header {
   position: absolute;
   top: 0;
@@ -64,6 +65,7 @@ header>a {
   border-bottom: 1px solid #114;
 }
 
+/* Background and Video */
 .showcase {
   right: 0;
   width: 100%;
@@ -88,7 +90,7 @@ header>a {
   filter: brightness(70%);
 }
 
-
+/* Texts */
 .text {
   position: relative;
   z-index: 10;
@@ -143,13 +145,14 @@ header>a {
   transition: 0.2s;
   line-height: 1em;
 }
-
+/* Texts transformation buttons */
 .text a:hover {
   letter-spacing: 6px;
   background-color: #8eaec4;
   color: #fafafa;
 }
 
+/* Social footer */
 .social1 {
   position: absolute;
   z-index: 10;
@@ -173,7 +176,7 @@ header>a {
   transition: 0.5s;
   color: #00426e;
 }
-
+/* Texts and transformation Social links */
 .social1 li a:hover {
   transform: scale(0.5) translateY(-15px);
 }
@@ -206,6 +209,7 @@ header>a {
   transform: scale(0.5) translateY(-15px);
 }
 
+/* Flexbox CSS signup page */
 .container {
   display: flex;
   margin: 2em;
@@ -222,6 +226,7 @@ header>a {
   z-index: 25000;
 }
 
+/* Form inputs */
 .signup-form h2 {
   color: #fafafa;
   margin-bottom: 20px;
@@ -246,6 +251,7 @@ header>a {
   border-color: #00426e;
 }
 
+/* Button sign up */
 .join-button {
   display: inline-block;
   font-size: 1em;
@@ -268,7 +274,7 @@ header>a {
   letter-spacing: 6px;
 }
 
-/* webkit stroke used to stand out against background using white */
+/* webkit stroke used to stand out against background using white, specific text values for optimization of media on smaller screens */
 #voyagertext {
   font-family: Lora, sans-serif;
   font-size: 20em;
@@ -280,7 +286,7 @@ header>a {
   letter-spacing: -20px;
 }
 
-/* webkit stroke used to stand out against background using white */
+/* webkit stroke used to stand out against background using white, specific text values for optimization of media on smaller screens  */
 #landingtexth2 {
   font-family: Roboto, sans-serif;
   font-size: 3em;
