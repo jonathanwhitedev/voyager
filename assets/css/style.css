@@ -145,6 +145,7 @@ header>a {
   transition: 0.2s;
   line-height: 1em;
 }
+
 /* Texts transformation buttons */
 .text a:hover {
   letter-spacing: 6px;
@@ -156,7 +157,7 @@ header>a {
 .social1 {
   position: absolute;
   z-index: 10;
-  bottom: 80px;
+  bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,6 +177,7 @@ header>a {
   transition: 0.5s;
   color: #00426e;
 }
+
 /* Texts and transformation Social links */
 .social1 li a:hover {
   transform: scale(0.5) translateY(-15px);
@@ -269,7 +271,7 @@ header>a {
 }
 
 .join-button:hover {
-  background-color: rgb(142, 174, 196);
+  background-color: #8eaec4;
   color: #fafafa;
   letter-spacing: 6px;
 }
