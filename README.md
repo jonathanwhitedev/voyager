@@ -200,7 +200,7 @@ __Sign Up Page Testing:__
  6. See Screenshots below of test outcomes.
 
 ![Button Test](docs/screenshots/button-before.png)
-![Button Test](docs/screenshots/button-before.png)
+![Button Test](docs/screenshots/button-after.png)
 
 __Video Background Testing:__
  1. User views the playing Video source in the background. 
