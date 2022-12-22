@@ -158,7 +158,7 @@ It is noticed however that video backgrounds do not tend to work on smartphones 
  ![Sign Up Test](docs/screenshots/chromelighthouseresult-signup.png)
 
   Welcome Page
- ![Welcome Test](docs/screenshots/chromelighthouseresult-signup.png)
+ ![Welcome Test](docs/screenshots/chromelighthouseresult-welcome.png)
 
 
 ### Validator Testing 
